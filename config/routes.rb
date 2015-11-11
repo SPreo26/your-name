@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get "/", to: 'your_name#index'
   get "/check", to: 'your_name#check_number'
+  get "/check/:number", to: 'your_name#check_number'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
